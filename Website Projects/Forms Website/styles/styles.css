@@ -1,0 +1,126 @@
+:root {
+  --background-color: rgb(251, 251, 254);
+  --color-blue-100: rgb(221, 219, 255);
+  --color-blue-700: rgb(47, 39, 206);
+  --color-blue-900: rgb(4, 3, 22);
+  --color-bue-500: rgb(68, 61, 255);
+
+  --color-blue-300: rgb(119, 112, 248);
+  --color-blue-200: rgb(150, 146, 241);
+  --color-white-300: rgb(237, 237, 247);
+  --color-white-500: rgb(190, 190, 245);
+  --color-blue-800: rgb(22, 19, 75);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color-blue-900);
+}
+
+h1 {
+  -webkit-text-stroke-color: var(--color-blue-900);
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+  font-size: 3rem;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 15px auto;
+}
+
+form {
+  background-color: var(--color-blue-100);
+  border-radius: 6px;
+  height: 46rem;
+  margin: 0 auto;
+  padding: 15px;
+  width: 50%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+form ul {
+  list-style-type: none;
+}
+
+input,
+select,
+textarea {
+  margin: 5px auto;
+  border: 1px solid var(--color-blue-900);
+  border-radius: 3px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--color-blue-100);
+  background-color: var(--background-color);
+  border-width: 1px;
+}
+
+.help-section input,
+select,
+textarea {
+  display: block;
+  height: 2rem;
+  width: 100%;
+}
+
+.help-section textarea {
+  height: 7rem;
+  resize: none;
+}
+
+.usr-info-section,
+.btn-section,
+.terms-section {
+  margin-top: 10px;
+}
+
+.btn-section {
+  text-align: end;
+}
+
+.btn {
+  width: 80px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 0 3px;
+}
+
+.btn__section--clear {
+  border-color: var(--color-blue-900);
+  border-width: 1px;
+}
+
+.btn__section--clear:hover {
+  background-color: var(--color-white-500);
+  cursor: pointer;
+}
+
+.btn__section--submit {
+  background-color: var(--color-blue-900);
+  color: var(--background-color);
+}
+
+.btn__section--submit:hover {
+  background-color: var(--color-blue-800);
+  cursor: pointer;
+}

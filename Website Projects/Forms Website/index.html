@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="#" method="GET">
+        <section class="help-section">
+          <h2>How can we help you?</h2>
+
+          <ul>
+            <li>
+              <label for="username">Your name</label>
+              <input type="text" name="user-name" id="username" required />
+            </li>
+
+            <li>
+              <label for="useremail">Your E-mail Address</label>
+              <input type="email" name="user-email" id="useremail" required />
+            </li>
+
+            <li>
+              <label for="userphonenumber">Your Phone Number</label>
+              <input
+                type="tel"
+                name="user-phone-number"
+                id="userphonenumber"
+                required
+                minlength="5"
+                maxlength="11"
+              />
+            </li>
+
+            <li>
+              <label for="usermessage">Your Message</label>
+              <textarea
+                name="user-message"
+                id="usermessage"
+                minlength="10"
+                maxlength="200"
+                required
+              ></textarea>
+            </li>
+          </ul>
+        </section>  
+
+        <section class="usr-info-section">
+          <label for="userinfochoice">How did you find us?</label>
+          <select name="user-info-choice" id="userinfochoice" required>
+            <option value="searching">Web Search</option>
+            <option value="mouth">Word of mouth</option>
+            <option value="other">Other</option>
+          </select>
+        </section>
+
+        <section class="response-section">
+          <h2>How should we reply?</h2>
+
+          <ul>
+            <li>
+              <input
+                type="radio"
+                name="reply"
+                id="reply-call"
+                value="call"
+                required
+              />
+              <label for="reply-call">Call me</label>
+            </li>
+
+            <li>
+              <input
+                type="radio"
+                name="reply"
+                id="reply-email"
+                value="email"
+                required
+              />
+              <label for="reply-email">Send me an email</label>
+            </li>
+
+            <li>
+              <input
+                type="radio"
+                name="reply"
+                id="no-reply"
+                value="no-reply"
+                required
+              />
+              <label for="no-reply">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="terms-section">
+          <input
+            type="checkbox"
+            name="user-agreement"
+            id="useragreement"
+            required
+          />
+          <label for="useragreement">Agree Terms</label>
+        </section>
+
+        <section class="btn-section">
+          <button class="btn btn__section--clear"
+          type="reset">Clear</button>
+          <button class="btn btn__section--submit" type="submit">Submit</button>
+        </section> 
+      </form>
+    </main>
+  </body>
+</html>

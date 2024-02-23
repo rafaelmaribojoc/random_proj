@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="product.js" defer></script>
+  </head>
+  <body>
+    <form class="form" action="#" method="GET">
+      <label class="form__label" for="searchproduct">Product Name</label>
+      <input
+        class="form__search-input"
+        id="searchproduct"
+        name="product-name"
+        type="text"
+        maxlength="60" 
+        placeholder="Search"
+        required
+      />
+      <span class="form__char-indicator"
+        ><span class="form__char-indicator form__char-indicator--remaining"
+          >60</span
+        >/60</span
+      >
+      <button class="form__button" type="submit">Submit</button>
+    </form>
+  </body>
+</html>

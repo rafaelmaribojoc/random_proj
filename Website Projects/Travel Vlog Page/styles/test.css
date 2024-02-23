@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  /* text-align: center; */
+}
+
+#flex-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+}
+
+.image1 img {
+  height: 200px;
+  width: 100%;
+}

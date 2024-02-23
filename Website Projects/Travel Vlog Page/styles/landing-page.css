@@ -1,0 +1,122 @@
+#main-heading {
+  height: 800px;
+  background-image: url("/images/places/ocean.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#main-heading-content {
+  width: 750px;
+  height: 200px;
+  background-color: rgba(51, 47, 47, 0.7);
+  box-shadow: 2px 4px 6px rgb(68, 67, 67);
+  border-radius: 8px;
+  /* text-align: center; */
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 245px;
+}
+
+#main-heading-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Railway", sans-serif;
+  margin: 0;
+}
+
+#main-heading-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#main-heading-content a {
+  background-color: rgb(255, 251, 0);
+  color: black;
+  padding: 17px 23px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#main-heading-content a:hover { 
+  background-color: rgb(255, 225, 0);
+}
+
+#main-heading-content a:active {
+  background-color: rgb(255, 225, 0);
+}
+
+#highlights {
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
+#highlights h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: rgb(59, 65, 64);
+  margin: 24px auto;
+}
+
+#highlights-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 100px auto;
+  padding: 0;
+}
+
+.hl-places {
+  margin: 0 5px 0 0;
+}
+
+.hl-places img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgb(68, 67, 67);
+  object-fit: cover;
+}
+
+.hl-places.barcelona img {
+  width: 300px;
+}
+
+.hl-places p {
+  text-transform: uppercase;
+  font-size: 17px;
+  color: rgb(124, 123, 123);
+  margin: 20px 0;
+}
+
+.hl-places strong {
+  color: rgb(0, 160, 117);
+}
+
+
+
+/* #ftr-flx-ctr {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.ftr-flx-items {
+    margin: 0 10px;
+}
+
+.ftr-flx-items img {
+  height: 70px;
+  width: 100%;
+} */
+
