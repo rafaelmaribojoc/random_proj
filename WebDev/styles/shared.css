@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-color: #e9d7cf;
+  color: #534b4b;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  color: #a7014e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

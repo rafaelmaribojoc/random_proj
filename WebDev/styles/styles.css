@@ -1,0 +1,62 @@
+/* body {
+  padding: 0 250px 150px 250px;
+} */
+
+h1 {
+  font-size: 30px;
+  color: #1f1919;
+}
+
+span {
+  color: #420202;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 6px solid #000000;
+  margin-top: -100px;
+  /* margin-top: 100px;
+  margin-bottom: 20px; */
+}
+
+main {
+  /* width: 200px; */
+  /* height: 500px; */
+  background-color: #db6c5e;
+  border-radius: 8px;
+  border: 6px solid #2c2c2c;
+  /* margin: 500px 250px; */
+  padding: 0 40px 50px 40px;
+  margin-top: 150px;
+  margin-right: 250px;
+  margin-left: 250px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* .current-goal-date {
+
+} */
+
+footer {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+a {
+  color: rgb(73, 29, 50);
+}
+
+footer p {
+  font-size: 25px;
+}
+#main-phrase {
+  color: #4b3b3b;
+  font-weight: bold;
+  font-size: 54px;
+}
+
+/* .link {
+  margin-top: 500px;
+} */
